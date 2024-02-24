@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(61, 61, 61);
+    text-align: center;
+    transition: 0.3s;
+}
+label{
+    font-size: 250px;
+}
+
+button{
+    font-size: 50px;
+    margin: 25px;
+}
+
+
+
+
+
+#decreaseButton{
+    background-color: rgba(156, 156, 156, 0.3);
+    border: none;
+    padding: 15px 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0 5px 10px;
+    border-radius: 15px;
+}
+#decreaseButton:hover{
+    background-color: rgb(252, 80, 0);
+    border-radius: 99px;
+    opacity: 0.7;
+}
+#decreaseButton:active{
+    background-color: rgb(252, 80, 0);
+    border-radius: 99px;
+    opacity: 0.5;
+}
+
+
+
+
+
+#resetButton{
+    background: rgba(156, 156, 156, 0.3);
+    border: none;
+    padding: 15px 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0 5px 10px;
+    border-radius: 15px;
+}
+#resetButton:hover{
+    background-color: aqua;
+    border-radius: 99px;
+    opacity: 0.7;
+}
+#resetButton:active{
+    background-color: aqua;
+    border-radius: 99px;
+    opacity: 0.5;
+}
+
+
+
+
+
+#increasButton{
+    background-color: rgba(156, 156, 156, 0.300);
+    border: none;
+    padding: 15px 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0 5px 10px;
+    border-radius: 15px;
+}
+#increasButton:hover{
+    background-color: greenyellow;
+    border-radius: 99px;
+    opacity: 0.7;
+}
+#increasButton:active{
+    background-color: greenyellow;
+    border-radius: 99px;
+    opacity: 0.5;
+}
